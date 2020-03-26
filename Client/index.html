@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Shashank | Assignment-I | Web Technology</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css"
+		href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<!--===============================================================================================-->
+</head>
+
+<body>
+	<!-- Input Details Form -->
+	<div class="container-contact100" height="50">
+		<div class="wrap-contact100">
+			<form class="contact100-form validate-form">
+				<span class="contact100-form-title">
+					Enter Details
+				</span>
+
+				<div class="wrap-input100 validate-input" data-validate="Please enter your name">
+					<input class="input100" id="name" type="text" placeholder="Full Name">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate="Please enter your Address">
+					<textarea class="input100" id="address" placeholder="Address"></textarea>
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="container-contact100-form-btn">
+					<button class="contact100-form-btn" id="btnUpdate">
+						<span>
+							<i class="fa fa-paper-plane-o m-r-6" aria-hidden="true"></i>
+							Update
+						</span>
+					</button>
+					<button class="contact100-form-btn" id="btnClear">
+						<span>
+							<i class="fa fa-times m-r-6" aria-hidden="true"></i>
+							Clear
+						</span>
+					</button>
+				</div>
+
+			</form>
+		</div>
+		<!-- Table to Display Data -->
+		<div class="datatbl" ;>
+			<table class="table table-bordered table-dark table-striped" id="tbl" data-height="460"
+				data-url="./datafield.json">
+				<thead>
+					<tr>
+						<th class="col-md-2" data-field="id">Serial Number</th>
+						<th id="name" data-field="name">Name</th>
+						<th id="address" data-field="address">Address</th>
+					</tr>
+				</thead>
+				<tbody id="tblBody">
+					<!-- Data to be added with JS -->
+				</tbody>
+			</table>
+		</div>
+		<!-- Buttons For Text Formatting -->
+		<div class="txtButtons">
+			<button class="contact100-form-btn" id="btnLwr">
+				<span>
+					<i class="fa fa-arrow-circle-down fa-lg m-r-6" aria-hidden="true"></i>
+					Convert To LowerCase
+				</span>
+			</button>
+			<button class="contact100-form-btn" id="btnUpr">
+				<span>
+					<i class="fa fa-arrow-circle-up fa-lg m-r-6" aria-hidden="true"></i>
+					Convert To UpperCase
+				</span>
+			</button>
+		</div>
+	</div>
+
+
+	<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.16.0/bootstrap-table.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+	<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>
