@@ -15,3 +15,6 @@
 ### Run Web Client
 - Open script.js from Web-Assignments-I/Client/js
 - Now open index.html from Web-Assignments-I/Client/ in a browser
+
+### Demo
+![Screen shot of Client Application](./images/scr.png)
