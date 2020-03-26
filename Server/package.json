@@ -1,17 +1,17 @@
 {
   "name": "rest-uppr",
   "version": "1.0.0",
-  "description": "A RESTful API for converting Data to LowerCase and UpperCase",
+  "description": "A RESTful API for converting XML Data to LowerCase and UpperCase",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+"
+    "url": "git+https://github.com/Scramjet911/Web-Assignments-I"
   },
   "bugs": {
-    "url": ""
+    "url": "https://github.com/Scramjet911/Web-Assignments-I/issues"
   },
   "keywords": [
     "RESTful",
